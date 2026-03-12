@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "skills": {
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1773290762680
+    },
+    "tmux": {
+      "version": "1.0.0",
+      "installedAt": 1773290889694
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1773290969156
+    },
+    "oracle": {
+      "version": "1.0.1",
+      "installedAt": 1773291003956
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1773291483381
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773291488817
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1773291664826
+    },
+    "openclaw-cli": {
+      "version": "1.0.0",
+      "installedAt": 1773292083902
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1773292445057
+    },
+    "openclaw-shield": {
+      "version": "1.0.3",
+      "installedAt": 1773292453109
+    },
+    "openclaw-mcp-debugger": {
+      "version": "1.0.0",
+      "installedAt": 1773293281745
+    }
+  }
+}

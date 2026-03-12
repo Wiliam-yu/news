@@ -81,7 +81,7 @@ backup_github() {
         log "ℹ️ No changes to commit"
     else
         git commit -m "Backup: $TIMESTAMP"
-        git push origin main
+        git push origin master
         log "✅ GitHub backup pushed"
     fi
 }

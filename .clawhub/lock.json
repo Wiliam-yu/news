@@ -44,6 +44,18 @@
     "openclaw-mcp-debugger": {
       "version": "1.0.0",
       "installedAt": 1773293281745
+    },
+    "xiaohongshu-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1773318082981
+    },
+    "cron-scheduler": {
+      "version": "1.0.0",
+      "installedAt": 1773318186740
+    },
+    "system-resource-monitor": {
+      "version": "1.0.0",
+      "installedAt": 1773320229893
     }
   }
 }

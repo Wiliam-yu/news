@@ -56,6 +56,34 @@
     "system-resource-monitor": {
       "version": "1.0.0",
       "installedAt": 1773320229893
+    },
+    "clawsec": {
+      "version": "1.0.0",
+      "installedAt": 1773455720691
+    },
+    "EvoClaw": {
+      "version": "1.0.1",
+      "installedAt": 1773455738522
+    },
+    "clawd-cursor": {
+      "version": "0.6.3",
+      "installedAt": 1773455742125
+    },
+    "xint": {
+      "version": "2026.2.25",
+      "installedAt": 1773455776523
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1773456171811
+    },
+    "github-analyzer": {
+      "version": "1.0.0",
+      "installedAt": 1773456185922
+    },
+    "agent-cost-monitor": {
+      "version": "1.1.1",
+      "installedAt": 1773456261339
     }
   }
 }

@@ -31,6 +31,14 @@
       "success": false,
       "latency_ms": 3,
       "fallback": false
+    },
+    {
+      "timestamp": "2026-03-14T23:32:07.301Z",
+      "command": "search",
+      "mode": "cli",
+      "success": false,
+      "latency_ms": 8,
+      "fallback": false
     }
   ]
 }

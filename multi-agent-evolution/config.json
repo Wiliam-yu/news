@@ -1,0 +1,75 @@
+{
+  "name": "lobehub-style-multi-agent",
+  "version": "1.0.0",
+  "description": "Multi-Agent System based on LobeHub architecture - Human-Agent Co-evolution",
+  "architecture": "lobehub",
+  "agents": {
+    "codeagent": {
+      "role": "Chief Engineer",
+      "description": "代码开发、调试、重构专家",
+      "model": "claude-sonnet-4-20250514",
+      "skills": ["github", "skill-creator", "xint", "browser-use"],
+      "color": "blue"
+    },
+    "searchagent": {
+      "role": "Researcher",
+      "description": "信息搜集、分析、调研专家",
+      "model": "claude-sonnet-4-20250514",
+      "skills": ["brave-search", "web-fetch", "oracle", "github-analyzer"],
+      "color": "green"
+    },
+    "createagent": {
+      "role": "Creative Director",
+      "description": "内容创作、设计、写作专家",
+      "model": "claude-sonnet-4-20250514",
+      "skills": ["voice-message", "self-improving-agent", "skill-creator"],
+      "color": "yellow"
+    },
+    "opsagent": {
+      "role": "Operations",
+      "description": "系统监控、备份、安全运维",
+      "model": "claude-sonnet-4-20250514",
+      "skills": ["system-resource-monitor", "openclaw-backup", "cron-scheduler", "openclaw-shield"],
+      "color": "purple"
+    },
+    "reviewagent": {
+      "role": "Quality Assurance",
+      "description": "代码审查、质量评估、问题诊断",
+      "model": "claude-sonnet-4-20250514",
+      "skills": ["clawsec", "openclaw-mcp-debugger", "github"],
+      "color": "red"
+    }
+  },
+  "evolution": {
+    "enabled": true,
+    "type": "co-evolution",
+    "mechanisms": [
+      "skill-evolution",
+      "collaboration-evolution", 
+      "knowledge-evolution",
+      "interaction-evolution"
+    ],
+    "memory": "memos-local",
+    "metrics": [
+      "task-completion-rate",
+      "average-duration",
+      "evolution-count",
+      "knowledge-growth"
+    ]
+  },
+  "market": {
+    "enabled": true,
+    "description": "Agent 市场 - 可按需加载更多 Agent"
+  },
+  "tools": {
+    "mcp": true,
+    "builtin": [
+      "browser-use",
+      "brave-search",
+      "github",
+      "openclaw-cli"
+    ]
+  },
+  "created": "2026-03-16",
+  "author": "Harry"
+}
